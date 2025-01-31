@@ -5,6 +5,7 @@ import React from 'react'
 const AuthProvider = ({ children }) => {
   return (
     <main>
+      
         <SessionProvider>
             {children}
         </SessionProvider>

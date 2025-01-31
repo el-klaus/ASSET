@@ -51,7 +51,7 @@ const Navbar = () => {
   
 
   return (
-    <main className=' flex items-center justify-between sticky top-0 z-50 bg-white '>
+    <main className=' flex items-center justify-between sticky top-0 z-50 bg-white border-b-2 border-b-cyan-700'>
      
      <div className='lg:w-60 w-30 bg-white rounded-r-md'>
        <Image
@@ -82,7 +82,7 @@ const Navbar = () => {
           {
               
             session ?
-                <div>
+                <div className='pr-10'>
                     <Avatar
                         id="basic-button"
                         aria-controls={open ? 'basic-menu' : undefined}
@@ -96,6 +96,7 @@ const Navbar = () => {
                     </Avatar>
                     <Menu
                         id="basic-menu"
+                        className='hover:text-cyan-700 hover:bg-white text-white bg-cyan-700'
                         anchorEl={anchorEl}
                         open={open}
                         onClose={handleClose}
@@ -110,7 +111,7 @@ const Navbar = () => {
                         <Link href={'/investment'}>History</Link>
                       </MenuItem>
                       <MenuItem onClick={handleClose}>
-                      <Link href={'/service'}>invest</Link>
+                      <Link href={'/service'}>Invest</Link>
                       </MenuItem>
                       <MenuItem onClick={handleClose}>
                         <button onClick={() => { signOut({ callbackUrl: "/auth/signin" }) }}>Log Out</button>
