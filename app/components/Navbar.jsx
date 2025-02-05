@@ -96,7 +96,6 @@ const Navbar = () => {
                     </Avatar>
                     <Menu
                         id="basic-menu"
-                        className='hover:text-cyan-700 hover:bg-white text-white bg-cyan-700'
                         anchorEl={anchorEl}
                         open={open}
                         onClose={handleClose}

@@ -397,15 +397,3 @@ export default function TransactionGrid() {
     </div>
   );
 }  
-// Steps to Implement:
-// Generate and Display Referral Links:
-
-// When a user signs in, generate a referral link based on their email or user ID.
-// Display the link on the referral page with a "Copy" button.
-// Track Referrals:
-
-// When a new user signs up using a referral link, store the referrer’s email or ID in the database.
-// Credit Referral Bonus:
-
-// When a referred user makes a deposit, check if they have a referrer.
-// Calculate 1.5% of the deposit amount and credit it to the referrer.

@@ -498,7 +498,7 @@ const page = () => {
           <div className='flex flex-col gap-5 lg:pb-2  text-center lg:px-60'>
             <p className='font-serif text-xl font-semibold text-cyan-700 capitalize'>price</p>
             <h1 className='font-bold text-4xl font-serif capitalize '>affordable investment plan</h1>
-            <p className='text-lg pb-10'>Engage with our robust platform that leverages both expertly trained bots, adept at strategic
+            <p className='text-2xl font-semibold pb-10'>Engage with our robust platform that leverages both expertly trained bots, adept at strategic
               trading decisions for optimal buying and selling, and seasoned professionals within our company. Invest with confidence as we skillfully manage your funds, generating profits directly into your wallet.</p>
 
               <div className='pb-14'>
